@@ -4,10 +4,12 @@
 
 ## Usage
 
-	const { $, $$ } from "select-item";
+	<script src="/select-item/index.js"></script>
 	
-	$("#box"); 
-	// it will return single element
-	
-	$$("#boxs");
-	// it will return multiple element as array of node
+	<script>
+		$("#box"); 
+		// it will return single element
+		
+		$$("#boxs");
+		// it will return multiple element as array of node
+	</script>
