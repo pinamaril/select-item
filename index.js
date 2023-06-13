@@ -1,9 +1,7 @@
-const $ = (element) => {
-	return document.querySelector(element);
+window.$ = (e) => {
+	return document.querySelector(e);
 };
 
-const $$ = (elements) => {
-	return document.querySelectorAll(elements);
+window.$$ = (e) => {
+	return document.querySelectorAll(e);
 };
-
-export { $, $$ };
